@@ -1,0 +1,18 @@
+body {
+    background-image: url("../img/bg.jpg");
+}
+
+h1 {
+    color:red;
+}
+
+#p-div1 {
+    color: darkorange;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#div1 {
+    margin-top: 10%;
+    margin-left: 30%;
+}
