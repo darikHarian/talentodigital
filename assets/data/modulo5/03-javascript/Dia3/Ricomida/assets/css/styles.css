@@ -1,0 +1,142 @@
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive; */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* GLOBALS */
+
+.pt-6 {
+    padding-top: 5em;
+}
+
+.pt-7 {
+    padding-top: 6em;
+}
+
+.px-4-5 {
+    padding: 0 2.3em;
+}
+
+.ps-4-5 {
+    padding-left: 2.4rem !important;
+}
+
+.border-grey {
+    border-color: #ddd !important;
+}
+
+.border-dark-grey {
+    border-color: #777 !important;
+}
+
+.text-dark-grey {
+    color: #373a3c;
+}
+
+.bg-red {
+    background-color: #dc3545;
+}
+
+/* START DOCUMENT (DESIGN MOBILE FIRST) */
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;  
+}
+
+.logo-top {
+    font-size: 2.5em;
+}
+
+.navbar-toggler-icon {
+    font-size: 1.5em;
+}
+
+.img-header {
+    background: url("../img/principal.jpg") no-repeat center;
+    background-size: cover;
+    height: 18rem;
+}
+
+.card {
+    width: 81.4vw;
+}
+
+.t-underline {
+    text-decoration: none;
+}
+
+.t-bold {
+    font-weight: bold;
+}
+
+.rel-img {
+    height: 16em;
+}
+
+.title-subscribe {
+    font-size: 2.5em;
+}
+
+.btn-subscribe {
+    padding: 0 7.5em;
+}
+
+.logo-footer {
+    font-size: 3rem;
+}
+
+/* SM */
+@media only screen and (min-width: 540px) {
+
+}
+
+/* MD */
+@media only screen and (min-width: 720px) {
+    .pt-6 {
+        padding-top: 6.5em;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border: none;
+        border-radius: 24px;
+        margin-top: 10px;
+        background-color: rgba(0,0,0,.5);
+      }
+    
+    .carousel-indicators {
+        bottom: -50px;
+    }
+
+    .img-header {
+        height: 21rem;
+    }
+
+    .t-underline {
+        text-decoration: underline;
+    }
+
+    .t-bold {
+        font-weight: normal;
+    }
+
+    .rel-img {
+        height: 12em;
+    }
+
+    .btn-subscribe {
+        padding: 0 4em;
+    }
+
+    .logo-footer {
+        font-size: 1.5rem;
+    }
+}
