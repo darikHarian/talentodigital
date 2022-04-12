@@ -1,0 +1,29 @@
+/* font-family: 'Asap', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+/* GLOBALS */
+
+body {
+    font-family: 'Asap', sans-serif;
+    background: url('../img/bg-1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/* START DOCUMENT */
+
+.bg-navbar {
+    background-color: rgba(0,0,0,.3);
+}
+
+.logo {
+    font-family: 'Righteous', cursive;
+}
+
+.logo-top {
+    font-size: 1.5em;
+}
+
+.nav-item {
+    width: 7em;
+}
