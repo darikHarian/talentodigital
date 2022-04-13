@@ -1,0 +1,33 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* GLOBALS */
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+font-family: "Raleway", sans-serif;
+}
+
+.fs-7 {
+    font-size: .85rem;
+}
+
+/* IMAGES */
+.logo-svg {
+    width: 2rem;
+}
+
+/* DOCUMENT */
+
+/* MD */
+@media only screen and (min-width: 720px) {
+    .rel-img {
+        height: 7.5em;
+    }
+
+    .c2b {
+        height: 10em;
+    }
+}

@@ -6,13 +6,223 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4daaf0e5d5.js" crossorigin="anonymous"></script>
 
     <title>Prueba Viajes Chile</title>
 </head>
-<body>
+<body class="text-white">
     
+    <!-- Sección Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent container-fluid fixed-top py-0">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-svg" src="assets/img/viajes.svg" alt="Logo Viajes"><span class="fs-5"> Viajes Chile</span>
+                </a>
+                <button class="navbar-toggler fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon border-dark-grey"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-7" href="#top" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-7" href="#about" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-7" href="#featured" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-7" href="#contact" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <section id="top">
+            <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button dotIndicators" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100 mx-auto" alt="Slider 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100 mx-auto" alt="Slider 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100 mx-auto" alt="Slider 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Sección Quienes Somos -->
+        <section id="about" class="bg-dark pt-5 d-none d-md-block">
+            <div class="container">
+                <div class="text-center text-uppercase fs-6">
+                    <span>&iquest;Quiénes Somos?</span>
+                </div>
+                <div class="container px-5"><hr></div>
+                <div class="row pt-3">
+                    <div class="col-12 col-md-4">
+                        <article class="card border-0">
+                            <div class="card-img-top bg-info text-center"><span class="fas fa-plane fs-4 pt-1"></span></div>  
+                            <div class="card-body bg-dark px-0">
+                                <p class="fs-7 lh-sm">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati dolorum officia placeat omnis autem. Repudiandae rerum quibusdam ullam voluptatum, maiores quos quam blanditiis reprehenderit eius ducimus, odit, hic totam. lor
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem totam esse voluptas illum nostrum veritatis ea sed obcaecati fuga suscipit dolores, labore ducimus vero modi amet nisi repellendus! Ut, dignissimos.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet, voluptatibus maxime nesciunt adipisci harum error unde temporibus expedita, hic consequatur, quaerat amet. Dignissimos sint sunt commodi in. Minima, impedit.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="card border-0">
+                            <div class="card-body bg-dark py-0 px-0">
+                                <p class="fs-7 lh-sm">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vero laudantium velit consequatur quasi id nesciunt dolor doloremque. Doloribus quod, eveniet minus enim voluptatem consequatur fugiat ex. Quia, earum quod.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure at doloribus incidunt? Saepe, error! Ullam perspiciatis iusto magnam autem voluptate enim quos. Deserunt expedita, iure quo saepe pariatur eligendi error?
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia distinctio eaque ipsam illum perspiciatis, eveniet veniam accusantium laborum exercitationem cupiditate voluptate, veritatis magnam perferendis iste aliquam placeat soluta delectus laboriosam!
+                                </p>
+                            </div>
+                            <div class="card-img-bottom bg-info text-center"><span class="fas fa-mountain fs-4 pt-1"></span></div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="card border-0">
+                            <div class="card-img-top bg-info text-center"><span class="fas fa-route fs-4 pt-1"></span></div>
+                            <div class="card-body bg-dark px-0">
+                                <p class="fs-7 lh-sm">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quasi recusandae inventore similique cupiditate, asperiores assumenda aliquam odio, ut dolores laudantium quae voluptatum nihil. Assumenda ut dignissimos iure ex impedit.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur iusto sunt officia illo itaque repudiandae tenetur dicta culpa minima vitae excepturi adipisci, ipsa doloribus eum corporis sint id inventore totam!
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste natus veniam dicta distinctio magnam! Velit, ad et maxime, iusto magnam quaerat ab beatae expedita fugiat aperiam maiores eum harum inventore.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Destacados -->
+        <section id="featured" class="bg-dark pt-3">
+            <div class="container">
+                <div class="text-center text-uppercase fs-6">
+                    <span>Destacados</span>
+                </div>
+                <div class="container px-5"><hr></div>
+                <div class="row pt-2">
+                    <div class="col-12 col-md-3">
+                        <article class="card">
+                            <img src="assets/img/card1.jpg" class="card-img-top rel-img" alt="Paisaje 1">
+                            <div class="card-body bg-info overflow-hidden c2b">
+                                <h6>Lorem ipsum dolor sit amet</h6>
+                                <p class="fs-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quidem nisi quos voluptas quas fugiat tempora non nihil nobis</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <article class="card">
+                            <img src="assets/img/card2.jpg" class="card-img-top rel-img" alt="Paisaje 2">
+                            <div class="card-body bg-info overflow-hidden c2b">
+                                <h6>Consectetur adipisicing elit</h6>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nam voluptatibus, omnis voluptatum atque quasi possimus quo unde suscipit nisi</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <article class="card">
+                            <img src="assets/img/card3.jpg" class="card-img-top rel-img" alt="Paisaje 3">
+                            <div class="card-body bg-info overflow-hidden c2b">
+                                <h6>Omnis quidem nisi quos voluptas</h6>
+                                <p class="fs-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quo error officiis corporis vitae odio blanditiis modi recusandae.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <article class="card">
+                            <img src="assets/img/card4.jpg" class="card-img-top rel-img" alt="Paisaje 4">
+                            <div class="card-body bg-info overflow-hidden c2b">
+                                <h6>Quas fugiat tempora non nihil</h6>
+                                <p class="fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fuga quidem assumenda, at unde cumque</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contact" class="bg-dark py-5">
+            <div class="container">
+                <div class="text-center text-uppercase fs-6">
+                    <span>Contacto</span>
+                </div>
+                <div class="container px-5">
+                    <hr>
+                </div>
+                <form class="pt-2">
+                    <div class="mb-3">
+                        <label for="inputName" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputSubject" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputMessage" class="form-label">Mensaje</label>
+                        <textarea name="inputMessage" id="message" class="form-control" rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info text-white pb-1">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección Footer -->
+    <footer class="bg-info">
+        <div class="row py-4">
+            <div class="col-12 col-md-6 text-center text-uppercase">
+                <span class="fs-3">Viajes Chile</span>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <span class="fab fa-github-square fa-2x"></span>
+                <span class="fab fa-linkedin fa-2x"></span>
+                <span class="fab fa-twitter-square fa-2x"></span>
+                <span class="fab fa-facebook-square fa-2x"></span>
+            </div>
+        </div>
+    </footer>
+       
+    <script type="text/javascript" src="assets/js/index.js"></script>
+
 </body>
 </html>
